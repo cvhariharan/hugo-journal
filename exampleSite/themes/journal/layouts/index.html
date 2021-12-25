@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+{{- partial "hero.html" . -}}
+<div class="posts">
+    <h2>Recent Posts</h2>
+    {{ range first .Site.Params.recentPosts .Site.RegularPages }}
+        <p> <a href="{{ .RelPermalink }}"> {{ .Title }}</a>
+            <span class="summary-date">{{ .PublishDate.Format $dateFormat }}</span>
+            <span class="summary">{{ .Summary }}</span>
+        </p>
+    {{ end }}
+</div>
+<div class="link">
+    <a href="/posts" title="All posts">All Posts</a>
+</div>
+{{ end }}

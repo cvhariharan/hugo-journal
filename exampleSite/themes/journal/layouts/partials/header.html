@@ -1,0 +1,12 @@
+<div class="nav-bar">
+  <a href="{{ .Site.BaseURL }}" class="site-title"><span class="title-text">{{ .Site.Title }}</span>:~#</a>
+<nav>
+  {{ range .Site.Menus.main}}
+    <a href="{{ .URL }}">{{ lower .Name }}/</a>
+  {{ end }}
+</nav>
+<span class="posts-link">
+  <a href="/posts"> posts/ </a>
+</span>
+</div>
+<hr class="nav-solid">
