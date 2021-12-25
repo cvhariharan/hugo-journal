@@ -3,6 +3,9 @@ A minimal hugo theme for blogs.
 <p align="center">
     <img src="images/journal_phone.png" width="20%" height="30%">
 <p>
+<p align="center">
+    <a href="https://hugo-journal.pages.dev">Demo</a>
+</p>
 
 ### Features
 - Responsive and fast

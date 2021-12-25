@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://hugo-journal.pages.dev"
 languageCode: "en-us"
 title: "hugo-journal"
 theme: "journal"
