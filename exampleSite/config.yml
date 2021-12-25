@@ -20,7 +20,7 @@ menu:
       url: "/posts/"
       weight: 1
     - name: "RSS"
-      url: "/index.xml/"
+      url: "/index.xml"
       weight: 2
 
 markup.highlight.noClasses: false
