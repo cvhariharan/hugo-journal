@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+<div class="posts">
+    {{ range .Site.RegularPages }}
+        <p> <a href="{{ .RelPermalink }}"> {{ .Title }}</a>
+            <span class="summary-date">{{ .PublishDate.Format $dateFormat }}</span>
+            <span class="summary">{{ .Summary }}</span>
+        </p>
+        <hr class="solid">
+    {{ end }}
+</div>
+<!-- <h1>{{ .Title }}</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+<p>
+    <p><</p>
+    {{ partial "metadata.html" . }}
+    <a class="summary" href="{{ .RelPermalink }}">
+        <p></p>
+    </a>
+</p>
+{{ end }} -->
+{{ end }}
