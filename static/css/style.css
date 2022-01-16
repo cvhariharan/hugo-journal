@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .content {
     font-family: 'RobotoMono';
-    width: 50%;
+    width: 65%;
     margin: 0;
     padding-top: 2px;
     color: var(--title-color);
