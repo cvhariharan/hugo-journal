@@ -30,6 +30,7 @@
     --link-dark: #3c6af5;
     --title-dark: rgb(245, 245, 245);
     --subtitle-dark: #cfcfcf;
+    --code-bg-color: black;
 }
 
 html {
@@ -249,6 +250,15 @@ h1,h2,h3,h4,h5,h6 {
 code, pre {
     overflow: auto;
     padding: 5px;
+    white-space: pre-wrap;
+    tab-size: 4;
+    font-size: 14px;
+    /* width: 70%; */
+}
+
+pre {
+    background: var(--code-bg-color) !important;
+    color: white;
 }
 
 hr.solid {
