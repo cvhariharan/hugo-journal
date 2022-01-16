@@ -107,7 +107,7 @@ body {
 } */
 
 .nav-bar {
-    width: 95%;
+    width: 70%;
     background-color: var(--bg-color);
 }
 
@@ -136,7 +136,8 @@ h1,h2,h3,h4,h5,h6 {
     font-size: large;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: var(--title-color);
 }
 
@@ -266,8 +267,8 @@ hr.nav-solid {
     font-family: 'RobotoMonoBold';
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 1em;
-
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .hero {
@@ -383,8 +384,8 @@ footer a {
     }
 
     .btn {
-        top: 25px;
-        right: 30px;
+        top: 14px;
+        right: 32px;
     }
 }
 
@@ -426,7 +427,7 @@ footer a {
     }
 
     .btn {
-        top: 25px;
-        right: 30px;
+        top: 14px;
+        right: 32px;
     }
 }
