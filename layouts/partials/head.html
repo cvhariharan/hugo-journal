@@ -3,7 +3,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ .Site.Params.heroSubtitle }}">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="preload" as="font">
+    <link rel="preload" as="font" href="/fonts/roboto-mono-v13-latin-regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/roboto-mono-v13-latin-700.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/roboto-mono-v13-latin-italic.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/roboto-mono-v13-latin-700italic.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="{{ .Site.Params.logo }}">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
